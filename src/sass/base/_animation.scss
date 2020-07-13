@@ -1,0 +1,69 @@
+@keyframes background {
+    100% {
+      background-position: 0 260px ;
+    }
+}
+@keyframes background1 {
+  100% {
+    background-position: 0 200px ;
+  }
+}
+
+@keyframes contact {
+  10% {
+    box-shadow: 0 2px 24px rgb(243, 57, 57);
+  }
+  25% {
+    transform: rotate(35deg);
+    box-shadow: 0 2px 30px rgb(243, 57, 57);
+  }
+  35% {
+    box-shadow: 0 2px 45px rgb(243, 57, 57);
+  }
+  50% {
+    
+    box-shadow: 0 2px 60px rgb(243, 57, 57);
+  }
+  65% {
+    box-shadow: 0 2px 45px rgb(243, 57, 57);
+  }
+  75% {
+    box-shadow: 0 2px 30px rgb(243, 57, 57);
+  }
+  100% {
+    box-shadow: 0 2px 24px rgb(243, 57, 57);
+  }
+}
+@keyframes contact1 {
+  10% {
+    box-shadow: 0 2px 24px rgb(243, 57, 57);
+  }
+  50% {
+    transform: rotate(35deg);
+    box-shadow: 0 2px 50px rgb(243, 57, 57);
+  }
+  100% {
+    box-shadow: 0 2px 24px rgb(243, 57, 57);
+  }
+}
+@keyframes rotater {
+  10% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(35deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes zoomer {
+  0% {
+    width: 0px;
+    height: 0px;
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+  }
+}

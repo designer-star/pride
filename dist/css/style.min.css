@@ -1,0 +1,63 @@
+@import url(https://use.typekit.net/uly2abl.css);
+* {
+  box-sizing: border-box; }
+
+.text {
+  color: #fff; }
+
+.header {
+  position: relative;
+  height: 1000px;
+  width: 100%;
+  background: url("../img/header/pride site.png"); }
+
+.header .name {
+  margin-left: 82%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column; }
+
+.header .name h1 {
+  color: wheat;
+  font-family: trajan-color,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px; }
+
+.header .social {
+  display: flex;
+  justify-content: space-between;
+  width: 100px; }
+
+.header .social_item {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #fff; }
+
+.header .logo {
+  opacity: .5;
+  display: inline-block;
+  margin-left: 77%;
+  margin-top: 561px;
+  display: none; }
+
+.header .logo img {
+  width: 350px; }
+
+.header .menu_wrapper {
+  position: absolute;
+  padding-top: 30px;
+  margin-left: 20px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between; }
+
+.header .menu_wrapper a {
+  font-family: trajan-color,serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+  font-size: 8px; }

@@ -1,0 +1,25 @@
+.portfolio{
+    background-color: black;
+    position: relative;
+    height: 900px;
+    &_wrapper{
+        margin: 250px auto  10px;
+        width: 80%;
+        
+        img{
+            width: 58%;
+        }
+    }
+   /*  .slick-active{
+        img{
+            width: 70%;
+            }  
+    }
+    .slick-center{
+       border: solid 2px red;
+       img{
+        width: 100%;
+        }
+    } */
+    
+}
